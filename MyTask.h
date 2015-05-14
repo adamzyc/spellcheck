@@ -38,7 +38,7 @@ namespace wd
         struct sockaddr_in m_addr_;
         int m_fd_;
         vector<pair<string,int>>* m_vec_;
-        map<string,set<int>>* m_index;
+        map<string,set<int>>* m_index_;
     };
 }
 #endif

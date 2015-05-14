@@ -27,6 +27,7 @@ namespace wd
 {
     class MyConf
     {
+        friend class MySocket;
     public:
         MyConf(const string& filename);
         ~MyConf() = default;
