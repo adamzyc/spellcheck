@@ -1,0 +1,9 @@
+apple banana orange
+banana orange
+banana orange
+apple banana
+apple banana
+apple
+apple    orange
+apple
+orange
