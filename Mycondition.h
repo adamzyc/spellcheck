@@ -7,5 +7,23 @@
 
 #ifndef _MYCONDITION_H
 #define _MYCONDITION_H
+#include <pthread.h>
 
+namespace wd
+{
+    class Mylock;
+    class Mycondition
+    {
+    public:
+        Mycondition(Mylock& mutex);
+        ~Mycondition();
+
+        void wait();
+        void broadcast();
+        void notify();
+    private:
+        Mylock &m_mutex_;
+        pthread_cond_t m_cond_;
+    };
+}
 #endif
