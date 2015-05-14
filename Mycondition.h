@@ -7,4 +7,5 @@
 
 #ifndef _MYCONDITION_H
 #define _MYCONDITION_H
+
 #endif
