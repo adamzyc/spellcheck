@@ -1,8 +1,8 @@
 /*************************************************************************
-	> File Name: MyConf.cc
-	> Author: 周雨晨
-	> Mail: 15917836@qq.com
-	> Created Time: Thu 14 May 2015 11:33:47 CST
+  > File Name: MyConf.cc
+  > Author: 周雨晨
+  > Mail: 15917836@qq.com
+  > Created Time: Thu 14 May 2015 11:33:47 CST
  ************************************************************************/
 
 #include "MyConf.h"
